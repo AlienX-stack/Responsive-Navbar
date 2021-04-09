@@ -223,6 +223,12 @@ nav {
         top: -44%;
         right: 60%;
     }
+
+    .link::after {
+        transition: none;
+        transform: none;
+        background: none;
+    }
 }
 
 @keyframes navLinkFade {
