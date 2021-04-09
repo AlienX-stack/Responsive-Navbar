@@ -94,7 +94,6 @@ nav {
 
 .icons a {
     color: var(--lightWhite);
-
 }
 
 /* .discount {
@@ -179,7 +178,7 @@ nav {
     }
 
     .icons {
-        margin-left: 20%;
+        margin-left: 10%;
         /* background-color: #f5e71b; */
         justify-content: space-around;
     }
