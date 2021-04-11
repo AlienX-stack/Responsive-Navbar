@@ -57,6 +57,10 @@ nav {
     /* width: 30%; */
 }
 
+.none {
+    display: none;
+}
+
 .nav-links li {
     list-style: none;
 }
@@ -196,6 +200,7 @@ nav {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        /* background-color: #f5e71b; */
     }
 
     .nav-links li {
@@ -209,7 +214,6 @@ nav {
     .burger {
         display: block;
         cursor: pointer;
-        /* background-color: #f5e71b; */
         right: 10px;
         position: absolute;
     }
@@ -227,6 +231,7 @@ nav {
         transition: none;
         transform: none;
         background: none;
+        width: 0%;
     }
 }
 
